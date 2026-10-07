@@ -9,25 +9,25 @@ Last updated: October 7, 2026
 
 ## 1. Who we are
 
-Shadovelle is a mobile puzzle game provided by [DEVELOPER NAME], based in [COUNTRY] (“we,” “us,” or “our”).
+Shadovelle is a mobile puzzle game provided by Ashifshamina, based in India (“we,” “us,” or “our”).
 
 This Privacy Policy explains how information is handled when you use Shadovelle, including information processed by advertising services integrated into the game.
 
-For privacy questions or requests, contact us at:
+For privacy questions or requests, contact:
 
-- Developer/operator: [DEVELOPER NAME]
-- Email: [CONTACT EMAIL]
-- Country: [COUNTRY]
+- Developer/operator: Ashifshamina
+- Email: [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
+- Country: India
 
 ## 2. Information stored on your device
 
-Shadovelle stores game-related information locally on your device, including:
+Shadovelle stores game-related information locally on your device using SharedPreferences or other local app storage, including:
 
 - Level progress and completion records.
 - Game settings and preferences.
 - Other local information needed to save and resume gameplay.
 
-We do not receive this locally stored gameplay information through a developer-operated cloud-sync service.
+We do not receive this locally stored gameplay information through a developer-operated cloud-sync service. We cannot access or remotely delete the progress and settings stored on your device.
 
 Depending on your device settings and the app’s backup configuration, Android or your device provider may back up and restore app data. Such backups are handled under the relevant provider’s settings and policies.
 
@@ -59,6 +59,8 @@ If you contact us by email, we receive your email address and any information yo
 We use this information to respond to your request, investigate problems, and provide support.
 
 Please do not send passwords, payment credentials, or unnecessary sensitive personal information.
+
+Support correspondence is separate from the game progress stored locally on your device.
 
 ## 5. How information is used
 
@@ -99,6 +101,8 @@ You can also use your Android device’s privacy or advertising settings to rese
 
 Non-personalized or limited advertising may still involve processing information for purposes such as ad delivery, fraud prevention, and reporting. It does not necessarily mean that no information is processed.
 
+Changing advertising consent or resetting or deleting an advertising ID does not necessarily delete information already processed by Google.
+
 Withdrawing consent does not affect processing lawfully carried out before withdrawal.
 
 ## 8. Permissions
@@ -117,15 +121,40 @@ We retain support correspondence only as long as reasonably necessary to resolve
 
 Google and other service providers retain information they process according to their applicable policies and legal obligations. We do not control their retention periods.
 
-## 10. Deletion and privacy requests
+## 10. Local data deletion and privacy requests
 
-You can remove locally stored game data through Android’s Clear storage/Clear data option for Shadovelle or by uninstalling the app. This may permanently erase your progress.
+### Local game data
 
-Clearing app data or uninstalling the app does not necessarily remove device backups or information already processed by advertising providers.
+Game progress and settings are stored on your device. We cannot remotely access or delete this information.
 
-Shadovelle does not currently provide player accounts, so there is no in-game account to delete.
+You can remove the app’s local data through your Android device settings:
 
-To request deletion of support correspondence or exercise privacy rights concerning information we control, email [CONTACT EMAIL].
+Settings → Apps → Shadovelle → Storage or Storage & cache → Clear storage or Clear data.
+
+The exact names of these controls may vary by device.
+
+Clearing storage or data erases locally saved progress and preferences. Clearing cache is not the same as clearing the app’s stored data.
+
+Uninstalling the app generally removes its local app data, but device backups may retain information or restore it if you reinstall the game.
+
+### Player accounts
+
+Shadovelle does not currently provide player accounts or player login, so there is no in-game account to delete.
+
+### Advertising data
+
+Clearing local game data or uninstalling Shadovelle does not necessarily remove information previously processed by Google AdMob.
+
+We do not provide a feature that deletes all information held by Google AdMob about an individual player. For information controlled independently by Google, use the privacy tools and contact options described in:
+
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [Google Privacy Help Center](https://support.google.com/policies/answer/9581826?hl=en)
+
+### Information we control
+
+If you have contacted us by email, you may request deletion of support correspondence we control by emailing [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com).
+
+We will consider and respond to requests in accordance with applicable law. Some information may need to be retained for legal, security, or dispute-resolution purposes.
 
 Depending on your location, you may have rights to:
 
@@ -139,19 +168,19 @@ Depending on your location, you may have rights to:
 
 These rights are subject to applicable law and permitted exceptions. We may request information reasonably necessary to verify and respond to a request.
 
-For information controlled independently by Google, use the privacy tools and contact options in Google’s policies. We can explain which information we control, but cannot promise to delete information from systems we do not control.
+We can explain which information we control, but cannot promise to delete information from systems we do not control.
 
 ## 11. Children’s privacy
 
-Shadovelle is not specifically directed to children under 13.
+Shadovelle’s intended audience is teenagers aged 13 and older and adults. It is not specifically directed to children under 13.
 
-We do not knowingly request personal information directly from children under 13. If a parent or guardian believes that a child has provided personal information to us, please contact [CONTACT EMAIL] so we can investigate and take appropriate action.
+We do not knowingly request personal information directly from children under 13. If a parent or guardian believes that a child has provided personal information to us, please contact [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com) so we can investigate and take appropriate action.
 
-Age-related privacy requirements can differ by country. This statement does not replace any required age-appropriate advertising configuration, consent controls, or Google Play Families requirements.
+Age-related privacy and consent requirements can differ by country. Being aged 13 or older does not necessarily mean that a person is an adult or can provide consent independently under every applicable law.
 
 ## 12. International processing
 
-Google and other service providers may process information on servers outside your country.
+Google and other service providers may process information on servers outside India or your country of residence.
 
 Where applicable, international processing is subject to the safeguards and transfer arrangements described in their policies and required by law.
 
@@ -183,6 +212,6 @@ Where required, we will provide additional notice or obtain consent before intro
 
 For questions, complaints, or privacy requests relating to Shadovelle, contact:
 
-- Developer/operator: [Ashifshamina]
-- Email: [ashifshamina@gmail.com]
-- Country: [India]
+- Developer/operator: Ashifshamina
+- Email: [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
+- Country: India
