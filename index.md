@@ -11,7 +11,7 @@ Last updated: October 7, 2026
 
 Shadovelle is a mobile puzzle game provided by Ashifshamina, based in India (“we,” “us,” or “our”).
 
-This Privacy Policy explains how information is handled when you use Shadovelle, including information processed by advertising services integrated into the game.
+This Privacy Policy explains how information is handled when you use Shadovelle, including information processed by advertising services and cloud synchronization features integrated into the game.
 
 For privacy questions or requests, contact:
 
@@ -19,7 +19,7 @@ For privacy questions or requests, contact:
 - Email: [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
 - Country: India
 
-## 2. Information stored on your device
+## 2. Information stored on your device and in the cloud
 
 Shadovelle stores game-related information locally on your device using SharedPreferences or other local app storage, including:
 
@@ -27,9 +27,12 @@ Shadovelle stores game-related information locally on your device using SharedPr
 - Game settings and preferences.
 - Other local information needed to save and resume gameplay.
 
-We do not receive this locally stored gameplay information through a developer-operated cloud-sync service. We cannot access or remotely delete the progress and settings stored on your device.
+**Cloud Synchronization and Leaderboards:**
+To provide optional cross-device progress backup and global leaderboards, the app connects to Google Firebase (Firebase Authentication and Cloud Firestore). 
+- We use **Anonymous Authentication**, meaning you do not need to provide a name, email address, or password to play or sync your progress.
+- A secure, randomized device token is assigned automatically to synchronize your total stars, completed rooms, and arcade scores securely in the cloud.
 
-Depending on your device settings and the app’s backup configuration, Android or your device provider may back up and restore app data. Such backups are handled under the relevant provider’s settings and policies.
+Depending on your device settings and the app’s backup configuration, Android or your device provider may also back up and restore app data.
 
 ## 3. Information processed by advertising services
 
@@ -66,7 +69,8 @@ Support correspondence is separate from the game progress stored locally on your
 
 Information is used to:
 
-- Save gameplay progress and preferences on your device.
+- Save gameplay progress and preferences on your device and via optional cloud sync.
+- Update and display global leaderboards.
 - Provide and maintain the game.
 - Display and measure advertisements.
 - Detect fraud, abuse, and technical problems.
@@ -81,6 +85,7 @@ The legal basis depends on the particular processing activity and applicable law
 
 Information described in this policy may be processed by:
 
+- Google Firebase and Google Cloud: For anonymous authentication, cloud sync, and global leaderboards.
 - Google and its advertising-service providers in connection with AdMob.
 - Our email-service provider when you contact us.
 - Authorities or other parties where disclosure is legally required or reasonably necessary to address fraud, security issues, or protect legal rights.
@@ -107,7 +112,7 @@ Withdrawing consent does not affect processing lawfully carried out before withd
 
 ## 8. Permissions
 
-The current release uses network access to load advertisements and communicate with advertising services. Depending on the SDK and Android version, the app may include advertising ID access.
+The current release uses network access to load advertisements, sync progress to the cloud, and communicate with advertising services. Depending on the SDK and Android version, the app may include advertising ID access.
 
 The current release does not request access to your contacts, camera, microphone, or precise device location.
 
@@ -137,9 +142,11 @@ Clearing storage or data erases locally saved progress and preferences. Clearing
 
 Uninstalling the app generally removes its local app data, but device backups may retain information or restore it if you reinstall the game.
 
-### Player accounts
+### Cloud data and player accounts
 
-Shadovelle does not currently provide player accounts or player login, so there is no in-game account to delete.
+Shadovelle uses anonymous authentication for cloud sync and global leaderboards, so there is no registered email/password user account to delete. 
+
+If you have used cloud sync and wish to request deletion of your cloud-synced game records or leaderboard entries, you can contact us at [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com).
 
 ### Advertising data
 
@@ -188,7 +195,7 @@ Where applicable, international processing is subject to the safeguards and tran
 
 We use reasonable safeguards appropriate to the information we handle.
 
-Google states that information collected by the Google Mobile Ads SDK is encrypted in transit using Transport Layer Security.
+Google states that information collected by the Google Mobile Ads SDK and Firebase services is encrypted in transit using Transport Layer Security.
 
 No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
 
