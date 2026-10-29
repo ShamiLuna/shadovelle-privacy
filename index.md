@@ -219,6 +219,6 @@ Where required, we will provide additional notice or obtain consent before intro
 
 For questions, complaints, or privacy requests relating to Shadovelle, contact:
 
-- Developer/operator: Ashifshamina
+- Developer/operator: S Shamina
 - Email: [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
 - Country: India
