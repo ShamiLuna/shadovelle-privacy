@@ -1,224 +1,148 @@
+# Privacy Policy for AntiShadow ASMR
+
+**Effective date:** October 7, 2026  
+**Last updated:** October 7, 2026
+
+## 1. Who We Are
+
+**AntiShadow ASMR** (Android Package Name: `com.shadowhome.shadow_shift_demo`) is a mobile game provided and operated by **S Shamina**, based in India (“we,” “us,” or “our”).
+
+This Privacy Policy explains how information is collected, used, and handled when you use AntiShadow ASMR, including information processed by integrated third-party services such as Google AdMob advertising and Google Firebase cloud synchronization.
+
+For any privacy-related questions or requests, please contact us:
+
+* **App Title:** AntiShadow ASMR
+* **Application ID:** com.shadowhome.shadow_shift_demo
+* **Developer / Operator:** S Shamina
+* **Contact Email:** [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
+* **Country:** India
+
 ---
-title: Shadovelle Privacy Policy
+
+## 2. Information Stored on Your Device and in the Cloud
+
+AntiShadow ASMR stores game-related information locally on your device using `SharedPreferences` and local application storage, including:
+
+* Level completion records, stars, and progress.
+* Unlocked items, cosmetics, and fidget toy preferences.
+* Game settings (sound, haptics, reduce motion choices).
+
+### Cloud Synchronization and Leaderboards
+To provide optional cross-device progress backup and global leaderboards, AntiShadow ASMR integrates with **Google Firebase** (Firebase Authentication and Cloud Firestore):
+* **Anonymous Authentication:** You do not need to provide an email address, password, or account credentials to play or back up your progress.
+* **Device Identification:** A randomized, secure device token is assigned automatically to synchronize your total stars, completed levels, spendable rewards, and leaderboard scores in the cloud.
+
 ---
 
-# Privacy Policy for Shadovelle
+## 3. Information Processed by Advertising Services
 
-Effective date: October 7, 2026  
-Last updated: October 7, 2026
+AntiShadow ASMR displays advertisements using **Google AdMob** and the **Google Mobile Ads SDK**.
 
-## 1. Who we are
+While the game does not require you to provide personal details (such as your real name or phone number), the advertising SDK may automatically collect and process certain technical data, including:
 
-Shadovelle is a mobile puzzle game provided by Ashifshamina, based in India (“we,” “us,” or “our”).
+* IP address (used to estimate general location/country).
+* Device identifiers, including the Android Advertising ID and App Set ID.
+* Information regarding ad interactions, views, and clicks.
+* Diagnostic data, such as crash reports, app launch speeds, and SDK performance.
 
-This Privacy Policy explains how information is handled when you use Shadovelle, including information processed by advertising services and cloud synchronization features integrated into the game.
+This data is used for advertisement delivery, ad measurement, fraud prevention, security, and service operations in accordance with Google's partner policies:
 
-For privacy questions or requests, contact:
+* [Google Privacy Policy](https://policies.google.com/privacy)
+* [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
+* [Google Advertising Policies](https://policies.google.com/technologies/ads)
 
-- Developer/operator: Ashifshamina
-- Email: [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
-- Country: India
+---
 
-## 2. Information stored on your device and in the cloud
+## 4. Information Provided When Contacting Support
 
-Shadovelle stores game-related information locally on your device using SharedPreferences or other local app storage, including:
+If you contact us via email at [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com), we receive your email address and any details you choose to include in your message (such as screenshots or bug reports).
 
-- Level progress and completion records.
-- Game settings and preferences.
-- Other local information needed to save and resume gameplay.
+We use this information exclusively to respond to your support request, resolve technical issues, and improve the game. Support correspondence is kept confidential and separate from in-game data.
 
-**Cloud Synchronization and Leaderboards:**
-To provide optional cross-device progress backup and global leaderboards, the app connects to Google Firebase (Firebase Authentication and Cloud Firestore). 
-- We use **Anonymous Authentication**, meaning you do not need to provide a name, email address, or password to play or sync your progress.
-- A secure, randomized device token is assigned automatically to synchronize your total stars, completed rooms, and arcade scores securely in the cloud.
+---
 
-Depending on your device settings and the app’s backup configuration, Android or your device provider may also back up and restore app data.
+## 5. How Information Is Used
 
-## 3. Information processed by advertising services
+We and our service providers process information to:
 
-Shadovelle displays banner advertisements using Google AdMob and the Google Mobile Ads SDK.
+* Save and restore your game progress locally and via optional cloud backup.
+* Display global leaderboards and player rankings.
+* Deliver and measure non-intrusive advertisements via Google AdMob.
+* Maintain game security, prevent fraud, and diagnose technical crashes.
+* Respond to customer support inquiries and privacy requests.
 
-The game does not require you to provide a name or email address to play. However, the advertising SDK may automatically collect and share information such as:
+---
 
-- IP address, which may be used to estimate your general location.
-- Device identifiers, including the Android advertising ID and app set ID, where available and applicable.
-- Information about interactions with advertisements and the app.
-- Diagnostic information, such as crash logs, app launch time, hang rate, and information used to assess app or SDK performance.
+## 6. Data Sharing and Third-Party Services
 
-The information processed depends on the SDK version, device settings, advertising configuration, and applicable privacy choices.
+We do not sell personal information for monetary payment. Information is shared only with trusted third-party service providers necessary to operate the game:
 
-This information may be processed for advertising delivery, advertising measurement, analytics, fraud prevention, security, and service operation. App set ID is used for permitted non-advertising purposes, such as analytics and fraud prevention, rather than personalized advertising.
+* **Google Firebase & Google Cloud Platform:** For anonymous cloud backup, database storage, and leaderboards.
+* **Google AdMob:** For displaying banner and rewarded advertisements.
+* **Legal Compliance:** Where required by applicable law, court order, or to protect user safety and legal rights.
 
-Google describes its practices in:
+---
 
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
-- [Google advertising information](https://policies.google.com/technologies/ads)
+## 7. Advertising Choices and Privacy Consent
 
-## 4. Information you provide when contacting us
+Depending on your region (including the EU/EEA and UK under GDPR), the app presents an advertising privacy consent message (Google UMP SDK) on initial launch.
 
-If you contact us by email, we receive your email address and any information you choose to include, such as your message, device details, or screenshots.
+You can review or change your advertising privacy preferences at any time through the **Privacy Options** control inside the game's **Settings** screen.
 
-We use this information to respond to your request, investigate problems, and provide support.
+You may also reset or delete your Android Advertising ID at any time via your device settings:  
+`Settings → Privacy → Ads → Reset/Delete Advertising ID`.
 
-Please do not send passwords, payment credentials, or unnecessary sensitive personal information.
+---
 
-Support correspondence is separate from the game progress stored locally on your device.
+## 8. Permissions Used
 
-## 5. How information is used
+AntiShadow ASMR requires standard network permissions to connect to Google Firebase for cloud sync and Google AdMob for advertisement delivery:
 
-Information is used to:
+* `INTERNET`: Required for cloud sync, leaderboards, and ad loading.
+* `ACCESS_NETWORK_STATE`: Used to verify active internet connectivity before syncing.
 
-- Save gameplay progress and preferences on your device and via optional cloud sync.
-- Update and display global leaderboards.
-- Provide and maintain the game.
-- Display and measure advertisements.
-- Detect fraud, abuse, and technical problems.
-- Respond to support and privacy requests.
-- Meet applicable legal obligations.
+The game does **NOT** request or access your contacts, camera, microphone, device storage, or precise GPS location.
 
-Where applicable law requires a legal basis for processing, we rely on consent for processing that requires consent, legitimate interests for appropriate support and security activities, or compliance with legal obligations.
+---
 
-The legal basis depends on the particular processing activity and applicable law. Google’s processing is also subject to its applicable policies and legal bases.
+## 9. Data Retention & Deletion Rights
 
-## 6. Sharing and third-party services
+### Local Storage
+Local gameplay progress remains on your device until you clear the app data or uninstall the app:  
+`Settings → Apps → AntiShadow ASMR → Storage → Clear Data`.
 
-Information described in this policy may be processed by:
+### Cloud Storage & Leaderboard Data
+Because cloud synchronization uses anonymous device identifiers, you may request the deletion of your cloud-synced game records or leaderboard entries at any time by emailing us at [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com) with your player identifier.
 
-- Google Firebase and Google Cloud: For anonymous authentication, cloud sync, and global leaderboards.
-- Google and its advertising-service providers in connection with AdMob.
-- Our email-service provider when you contact us.
-- Authorities or other parties where disclosure is legally required or reasonably necessary to address fraud, security issues, or protect legal rights.
+### Support Correspondence
+Email messages sent to support are retained only as long as necessary to resolve your request or comply with legal obligations.
 
-We do not sell personal information for money.
+---
 
-Advertising-related disclosures may be classified as a “sale,” “sharing,” or targeted advertising under some privacy laws, even where information is not exchanged directly for money. Applicable choices depend on your location and the privacy controls available to you.
+## 10. Children’s Privacy
 
-External advertisements may open third-party websites or apps. Their information practices are governed by their own policies, not this policy.
+AntiShadow ASMR is designed for a general audience aged 13 and older. We do not knowingly collect personal information from children under 13. If a parent or guardian believes that a child under 13 has provided personal data to us, please contact [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com) so we can delete the information promptly.
 
-## 7. Advertising choices and consent
+---
 
-Depending on your location and applicable requirements, the app presents advertising privacy messages and choices before requesting ads that require those choices.
+## 11. In-App Purchases
 
-Where required, you can review or change your advertising privacy choices through the app’s Privacy options control in Settings.
+The current release of AntiShadow ASMR is **100% free to play** supported by advertisements. It does not contain paid subscriptions or credit card transactions.
 
-You can also use your Android device’s privacy or advertising settings to reset or delete the advertising ID. The location and availability of these controls vary by device and Android version.
+---
 
-Non-personalized or limited advertising may still involve processing information for purposes such as ad delivery, fraud prevention, and reporting. It does not necessarily mean that no information is processed.
+## 12. Changes to This Privacy Policy
 
-Changing advertising consent or resetting or deleting an advertising ID does not necessarily delete information already processed by Google.
+We may update this Privacy Policy from time to time to reflect changes in legal regulations or app features. The revised policy will be published at this location with an updated “Last updated” date.
 
-Withdrawing consent does not affect processing lawfully carried out before withdrawal.
+---
 
-## 8. Permissions
+## 13. Contact Us
 
-The current release uses network access to load advertisements, sync progress to the cloud, and communicate with advertising services. Depending on the SDK and Android version, the app may include advertising ID access.
+For questions, feedback, or privacy-related requests concerning **AntiShadow ASMR**, please contact:
 
-The current release does not request access to your contacts, camera, microphone, or precise device location.
-
-General location may nevertheless be estimated from an IP address by the advertising service, as described above.
-
-## 9. Data retention
-
-Locally stored game information remains on your device until it is removed through app-storage controls, overwritten, or otherwise deleted. Device backups may retain copies according to your device provider’s settings and retention practices.
-
-We retain support correspondence only as long as reasonably necessary to resolve the request and maintain relevant support records. We delete or anonymize it when no longer needed, unless further retention is required for legal, security, or dispute-resolution purposes.
-
-Google and other service providers retain information they process according to their applicable policies and legal obligations. We do not control their retention periods.
-
-## 10. Local data deletion and privacy requests
-
-### Local game data
-
-Game progress and settings are stored on your device. We cannot remotely access or delete this information.
-
-You can remove the app’s local data through your Android device settings:
-
-Settings → Apps → Shadovelle → Storage or Storage & cache → Clear storage or Clear data.
-
-The exact names of these controls may vary by device.
-
-Clearing storage or data erases locally saved progress and preferences. Clearing cache is not the same as clearing the app’s stored data.
-
-Uninstalling the app generally removes its local app data, but device backups may retain information or restore it if you reinstall the game.
-
-### Cloud data and player accounts
-
-Shadovelle uses anonymous authentication for cloud sync and global leaderboards, so there is no registered email/password user account to delete. 
-
-If you have used cloud sync and wish to request deletion of your cloud-synced game records or leaderboard entries, you can contact us at [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com).
-
-### Advertising data
-
-Clearing local game data or uninstalling Shadovelle does not necessarily remove information previously processed by Google AdMob.
-
-We do not provide a feature that deletes all information held by Google AdMob about an individual player. For information controlled independently by Google, use the privacy tools and contact options described in:
-
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [Google Privacy Help Center](https://support.google.com/policies/answer/9581826?hl=en)
-
-### Information we control
-
-If you have contacted us by email, you may request deletion of support correspondence we control by emailing [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com).
-
-We will consider and respond to requests in accordance with applicable law. Some information may need to be retained for legal, security, or dispute-resolution purposes.
-
-Depending on your location, you may have rights to:
-
-- Request access to personal information.
-- Request correction or deletion.
-- Restrict or object to certain processing.
-- Request data portability.
-- Withdraw consent.
-- Exercise applicable advertising opt-out rights.
-- Complain to a relevant data-protection authority.
-
-These rights are subject to applicable law and permitted exceptions. We may request information reasonably necessary to verify and respond to a request.
-
-We can explain which information we control, but cannot promise to delete information from systems we do not control.
-
-## 11. Children’s privacy
-
-Shadovelle’s intended audience is teenagers aged 13 and older and adults. It is not specifically directed to children under 13.
-
-We do not knowingly request personal information directly from children under 13. If a parent or guardian believes that a child has provided personal information to us, please contact [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com) so we can investigate and take appropriate action.
-
-Age-related privacy and consent requirements can differ by country. Being aged 13 or older does not necessarily mean that a person is an adult or can provide consent independently under every applicable law.
-
-## 12. International processing
-
-Google and other service providers may process information on servers outside India or your country of residence.
-
-Where applicable, international processing is subject to the safeguards and transfer arrangements described in their policies and required by law.
-
-## 13. Security
-
-We use reasonable safeguards appropriate to the information we handle.
-
-Google states that information collected by the Google Mobile Ads SDK and Firebase services is encrypted in transit using Transport Layer Security.
-
-No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
-
-## 14. Purchases
-
-The current release of Shadovelle is free to play and supported by advertisements.
-
-It does not offer in-app purchases or subscriptions, and we do not collect payment-card information through the game.
-
-If paid features are introduced later, we will update this policy before introducing any related changes in data handling.
-
-## 15. Changes to this policy
-
-We may update this policy to reflect changes to the game, its services, or legal requirements.
-
-The revised policy will be posted on this page with an updated “Last updated” date.
-
-Where required, we will provide additional notice or obtain consent before introducing materially different processing.
-
-## 16. Contact
-
-For questions, complaints, or privacy requests relating to Shadovelle, contact:
-
-- Developer/operator: S Shamina
-- Email: [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
-- Country: India
+* **App Title:** AntiShadow ASMR
+* **Developer Name:** S Shamina
+* **Application ID:** com.shadowhome.shadow_shift_demo
+* **Email:** [ashifshamina@gmail.com](mailto:ashifshamina@gmail.com)
+* **Country:** India
